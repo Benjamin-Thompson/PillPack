@@ -13,6 +13,9 @@ namespace RxSubstitution
     {
         static void Main(string[] args)
         {
+            //I chose to write this as a console app because it was both simple (as in the exercise wouldn't get lost in the boilerplate of the project)
+            // and because console apps can very practically be converted into azure web jobs, which would be a likely method to employ this code.
+
             if (args.Length < 1) Console.WriteLine("You must pass the root service URL as a parameter to this exe");
             else
             {
